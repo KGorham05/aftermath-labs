@@ -10,6 +10,38 @@ body {
 }
 
 #flask {
+    height: 100vh;
+    float: left;
+}
+
+
+#info {
+    /* background-color: rgb(14, 14, 14);
+     */
+    background: black no-repeat center center fixed;
+    background-size: 100%;
+    background-image: url('../images/oil-concentrate.jpg');
+    /* background-repeat: no-repeat; */
+    
+}
+
+#contact-col {
+    height: 105vh;
+    float: right;
+    text-shadow: 1px 1px 2px black;
+    
+}
+
+
+.align-mid {
+    position: relative;
+    top: 40%;
+}
+
+#footer {
+    background-color: black;
     height: 25vh;
 }
+
+/* Twinkle Effet */
 
