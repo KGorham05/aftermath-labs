@@ -12,9 +12,12 @@ body {
 }
 
 #logo:hover {
-  animation: animate 2s linear forwards;   
+    cursor: pointer;
 }
 
+.animate-it{
+  animation: animate 2s linear forwards;    
+}
 
 
 @keyframes animate {
