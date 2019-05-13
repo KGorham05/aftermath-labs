@@ -8,7 +8,9 @@ body {
     text-align: center;
 }
 #logo {
-    height: 100vh;
+    height: 50vh;
+    position: relative;
+    top: 20vh;
 }
 
 #logo:hover {
