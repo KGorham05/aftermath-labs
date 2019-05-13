@@ -10,3 +10,24 @@ body {
 #logo {
     height: 96vh;
 }
+
+#logo:hover {
+  animation: animate 2s linear forwards;   
+}
+
+
+
+@keyframes animate {
+    0% {
+      transform: rotate(0deg) translateY(0px);
+      opacity: 1;
+      filter: blur(1px);
+    }
+  
+    100% {
+      transform: rotate(45deg) translateY(-200px);
+      opacity: 0;
+      filter: blur(20px);
+      color: white;
+    }
+  }
