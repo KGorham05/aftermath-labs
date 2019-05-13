@@ -1,0 +1,14 @@
+body {
+    background-color:black;
+    
+}
+
+
+#main {
+    text-align: center;
+}
+
+#flask {
+    height: 96vh;
+    float: left;
+}
