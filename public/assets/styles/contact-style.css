@@ -15,6 +15,7 @@ body {
   max-height:98vh;
   width: auto;
   height: auto;  
+  opacity: 0;
 }
 
 #flask {
@@ -81,5 +82,22 @@ input {
 #tag-line {
     text-shadow: 0px 0px 5px gold;
 }
-/* Twinkle Effet */
 
+/* Animation */
+
+.animate-it{
+    animation: animate 1s linear forwards;    
+  }
+  
+  
+  @keyframes animate {
+      0% {
+        opacity: 0;
+        filter: blur(20px);
+      }
+    
+      100% {
+        opacity: 1;
+        filter: blur(0px);
+      }
+    }

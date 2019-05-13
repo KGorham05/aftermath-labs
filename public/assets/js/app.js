@@ -5,6 +5,6 @@ $(document).ready(function () {
         setTimeout(() => {
             window.location.href = "./contact.html";
         },
-            1750);
+            1000);
     })
 });
