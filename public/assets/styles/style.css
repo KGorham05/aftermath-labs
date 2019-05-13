@@ -1,6 +1,7 @@
-ITC Avant Garde Gothic Std MediumbyITC
-ITC Avant Garde Gothic Paneuropean BookbyIT
-
 body {
-    font-family: avant
+    background-color:black;
+}
+
+#logo {
+    height: 100vh;
 }
