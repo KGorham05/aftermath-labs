@@ -1,7 +1,12 @@
 body {
     background-color:black;
+    
 }
 
+
+#main {
+    text-align: center;
+}
 #logo {
-    height: 100vh;
+    height: 96vh;
 }
