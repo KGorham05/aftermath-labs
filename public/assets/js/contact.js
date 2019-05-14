@@ -1,6 +1,7 @@
 $(document).ready(function () {
 
     $('#logo').addClass('animate-it');
+    $('#tag-line').addClass('animate-it');
 
     const scriptURL = 'https://script.google.com/macros/s/AKfycbyQODSq6BlayMNUPo3OVlp9HYEkFQMxtv9YH_LhnTg-n6HrSj43/exec'
     const form = document.forms['submit-to-google-sheet']

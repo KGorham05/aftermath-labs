@@ -4,7 +4,7 @@ body {
     font-family: 'Didact Gothic', sans-serif;
     text-align: center;
     color: white;
-    text-shadow: 0px 0px 5px gold;
+    
 }
 
 .no-shadow {
@@ -13,11 +13,23 @@ body {
 
 #logo {
   max-width:80vw;
-  max-height:98vh;
+  max-height:60vh;
   width: auto;
   height: auto;  
   opacity: 0;
 }
+
+
+#tag-line {
+    padding-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    z-index: 2;
+    position: relative;
+    top: -30px;
+    opacity: 0;
+}
+
 
 #flask {
     height: 100vh;
@@ -80,10 +92,6 @@ input {
     background-color: black;
     height: 25vh;
     border-top: 1px solid gold;
-}
-
-#tag-line {
-    text-shadow: 0px 0px 5px gold;
 }
 
 /* Animation */
