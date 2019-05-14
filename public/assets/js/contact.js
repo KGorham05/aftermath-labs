@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+    $('#email-modal').modal('hide');
     $('#logo').addClass('animate-it');
     $('#tag-line').addClass('animate-it');
 
@@ -9,10 +10,12 @@ $(document).ready(function () {
     form.addEventListener('submit', e => {
         e.preventDefault()
         fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-            .then(response => console.log('Success!', response))
+            .then(response => {
+                console.log('Success!', response)
+                $('#email-input').val('');
+                $('#email-modal').modal('show');
+            })
             .catch(error => console.error('Error!', error.message))
     })
 });
 
-// add parallax background to desktop
-// add media query set background on phone screens
