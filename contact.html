@@ -35,18 +35,20 @@
                     <div id="contact-box">
                         <h1>Stay Informed</h1>
                         <p class="no-shadow">Sign up with your email address to receive news and updates.</p>
-                        <div class="row">
-                            <div class="col-md-2"></div>
-                            <div class="col-md-8">
-                                <input id="email-input" type="text" placeholder="Email">
+                        <form name="submit-to-google-sheet">
+                            <div class="row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-8">
+                                    <input id="email-input" name="email" type="email" placeholder="Email" required>
+                                </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4"></div>
-                            <div class="col-md-4">
-                                <p id="submit-btn" class-="no-shadow">SUBMIT</p>
+                            <div class="row">
+                                <div class="col-md-4"></div>
+                                <div class="col-md-4">
+                                    <button type="submit" id="submit-btn" class-="no-shadow">SUBMIT</button>
+                                </div>
                             </div>
-                        </div>
+                        </form>
 
                         <p class="no-shadow">We respect your privacy.</p>
                     </div>

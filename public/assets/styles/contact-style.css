@@ -59,9 +59,10 @@ input {
 
 #submit-btn {
     border: 1px solid gold;
-    padding: 5px 10px;
-    
+    padding: 5px 30px;
+    background: black;
     margin-top: 10px;
+    color: white;
 }
 
 #submit-btn:hover {
