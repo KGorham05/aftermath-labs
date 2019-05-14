@@ -1,3 +1,4 @@
+
 body {
     background-color:black;
     font-family: 'Didact Gothic', sans-serif;
@@ -27,14 +28,19 @@ body {
     border-bottom: 1px solid gold;
 }
 
-#info {     
-    background: black no-repeat center center fixed;
-    background-size: 100%;
-    background-image: url('../images/oil-concentrate.jpg');
+#info { 
+    background-image: url('../images/oil-concentrate.jpg');    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow-x: hidden;
+    
 }
 
 #contact-col {
-    height: 105vh;
+    height: 100vh;
     float: right;
     text-shadow: 0px 0px 5px gold;
     
@@ -73,7 +79,6 @@ input {
     background-color: black;
     height: 25vh;
     border-top: 1px solid gold;
-    padding-top: 11vh;
 }
 
 #tag-line {
