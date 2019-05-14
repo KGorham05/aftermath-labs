@@ -6,9 +6,11 @@ body {
 
 #main {
     text-align: center;
+    height: 100%;
+    width: 100%;
 }
 #logo {
-    height: 50vh;
+    height: 15%;
     position: relative;
     top: 20vh;
 }
