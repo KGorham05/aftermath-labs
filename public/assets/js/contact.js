@@ -15,7 +15,10 @@ $(document).ready(function () {
                 $('#email-input').val('');
                 $('#email-modal').modal('show');
             })
-            .catch(error => console.error('Error!', error.message))
+            .catch(error => {
+                console.error('Error!', error.message);
+                alert('Oh no... something went wrong! Please try again later!')
+            })
     })
 });
 

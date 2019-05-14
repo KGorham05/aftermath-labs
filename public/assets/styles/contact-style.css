@@ -105,6 +105,10 @@ input {
 
 }
 
+#email-modal {
+    color: black;
+}
+
 /* Animation */
 
 .animate-it{
