@@ -14,7 +14,5 @@ $(document).ready(function () {
     })
 });
 
-// logos 30% smaller
-// add tagline to header main screen
 // add parallax background to desktop
 // add media query set background on phone screens

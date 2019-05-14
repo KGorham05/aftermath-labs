@@ -1,10 +1,21 @@
 
 body {
-    background-color:black;
+    
     font-family: 'Didact Gothic', sans-serif;
     text-align: center;
     color: white;
-    
+    background: url('../images/oil-concentrate.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow-x: hidden;
+    background-attachment: fixed;
+}
+
+#main-container {
+           
 }
 
 .no-shadow {
@@ -39,16 +50,13 @@ body {
 
 #first-div {
     border-bottom: 1px solid gold;
+    background: black;
 }
 
 #info { 
-    background-image: url('../images/oil-concentrate.jpg');    
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100%;
-    overflow-x: hidden;
+    /* background-image: url('../images/oil-concentrate.jpg');     */
+    
+    border-bottom: 1px solid gold;
     
 }
 
@@ -84,6 +92,7 @@ input {
     transition: 0.3s;
     font-weight: 800;
 }
+
 .align-mid {
     position: relative;
     top: 40%;
@@ -92,7 +101,8 @@ input {
 #footer {
     background-color: black;
     height: 25vh;
-    border-top: 1px solid gold;
+    width: 101%;
+
 }
 
 /* Animation */
