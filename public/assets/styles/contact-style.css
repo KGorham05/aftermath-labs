@@ -100,7 +100,8 @@ input {
 #footer {
     background-color: black;
     height: 25vh;
-    
+    margin-left: -20px;
+    margin-right: -20px;
 
 }
 
