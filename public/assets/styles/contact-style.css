@@ -2,11 +2,7 @@
     box-sizing: border-box;
 }
 
-body {
-    
-    font-family: 'Didact Gothic', sans-serif;
-    text-align: center;
-    color: white;
+html {
     background: url('../images/oil-concentrate_1920x1028.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -15,6 +11,14 @@ body {
     height: 100%;
     overflow-x: hidden;
     background-attachment: fixed;
+}
+
+body {
+    
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+    color: white;
+
 }
 
 .no-shadow {
@@ -129,7 +133,7 @@ input {
 
     @media only screen and (max-width: 600px) { 
         
-        body {
+        html {
             background: url('../images/mobile-bg.jpg');
             -webkit-background-size: cover;
             -moz-background-size: cover;
