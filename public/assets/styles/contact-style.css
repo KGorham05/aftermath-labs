@@ -1,10 +1,13 @@
+* {
+    box-sizing: border-box;
+}
 
 body {
     
     font-family: 'Didact Gothic', sans-serif;
     text-align: center;
     color: white;
-    background: url('../images/oil-concentrate.jpg');
+    background: url('../images/oil-concentrate_1920x1028.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -12,10 +15,6 @@ body {
     height: 100%;
     overflow-x: hidden;
     background-attachment: fixed;
-}
-
-#main-container {
-           
 }
 
 .no-shadow {
