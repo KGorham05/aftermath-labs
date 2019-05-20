@@ -10,7 +10,9 @@ body {
     width: 100%;
 }
 #logo {
-    height: 15%;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
     position: relative;
     top: 20vh;
 }
