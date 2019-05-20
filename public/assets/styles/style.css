@@ -14,7 +14,7 @@ body {
     max-width: 300px;
     height: auto;
     position: relative;
-    top: 20vh;
+    top: 50%;
 }
 
 #logo:hover {
