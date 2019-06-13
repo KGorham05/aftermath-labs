@@ -7,7 +7,7 @@
     font-family: 'Didact Gothic', sans-serif;
     text-align: center;
     color: white;
-    background: url('../images/oil-concentrate_1920x1028.jpg');
+    background: url('../images/oil-concentrate_1920x1028.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -15,6 +15,7 @@
     height: 100%;
     overflow-x: hidden;
     background-attachment: fixed;
+    background-color: black;
 }
 
 .no-shadow {
@@ -140,4 +141,5 @@ input {
             overflow-x: hidden;
             background-attachment: fixed;
         }
+        
     } 
